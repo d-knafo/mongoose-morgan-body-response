@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-morgan-body-response",
+  "name": "@david-k/mongoose-morgan-body-response",
   "description": "Used to log morgan stream data with request and response body into MongoDb database.",
   "version": "1.0.23",
   "author": "david knafo <davidkjimdo@gmail.com>",
@@ -34,11 +34,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akumbhani66/mongoose-morgan-body.git"
+    "url": "git+https://github.com/d-knafo/mongoose-morgan-body-response.git"
   },
-  "homepage": "https://github.com/akumbhani66/mongoose-morgan-body/",
+  "homepage": "https://github.com/d-knafo/mongoose-morgan-body-response/",
   "scripts": {
     "test": "mocha --timeout 10000 test/*.test.js test/**/*.test.js"
   },
-  "types": "types/index.d.ts"
+  "types": "types/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/d-knafo/mongoose-morgan-body-response/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
