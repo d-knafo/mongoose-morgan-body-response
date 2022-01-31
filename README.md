@@ -1,4 +1,4 @@
-# mongoose-morgan-body
+# mongoose-morgan-body-response
 
 [![dependencies Status](https://david-dm.org/nemanjapetrovic/mongoose-morgan/status.svg)](https://david-dm.org/nemanjapetrovic/mongoose-morgan)
 [![devDependencies Status](https://david-dm.org/nemanjapetrovic/mongoose-morgan/dev-status.svg)](https://david-dm.org/nemanjapetrovic/mongoose-morgan?type=dev)
