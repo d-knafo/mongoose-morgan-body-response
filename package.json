@@ -1,5 +1,5 @@
 {
-  "name": "@david-k/mongoose-morgan-body-response",
+  "name": "mongoose-morgan-body-response",
   "description": "Used to log morgan stream data with request and response body into MongoDb database.",
   "version": "1.0.23",
   "author": "david knafo <davidkjimdo@gmail.com>",
