@@ -20,14 +20,20 @@ Here is an example of using mongoose-morgan-body-response together with the expr
 
 ```
 // express
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
+const originalSend = app.response.send
+
+app.response.send = function sendOverWrite(body) {
+  originalSend.call(this, body)
+  this.__custombody__ = body
+}
 
 // mongoose-morgan-body-response
-var morgan = require('mongoose-morgan-body-response');
+const morgan = require('mongoose-morgan-body-response');
 
 // connection-data
-var port = process.env.port || 8080;
+const port = process.env.port || 8080;
 
 // Logger
 app.use(morgan({
