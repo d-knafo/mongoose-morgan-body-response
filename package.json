@@ -1,0 +1,44 @@
+{
+  "name": "mongoose-morgan-body-response",
+  "description": "Used to log morgan stream data with request and response body into MongoDb database.",
+  "version": "1.0.23",
+  "author": "david knafo <davidkjimdo@gmail.com>",
+  "keywords": [
+    "morgan",
+    "log",
+    "request-body",
+    "morgan-req-body",
+    "logger",
+    "mongo",
+    "mongodb",
+    "error",
+    "express",
+    "http"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "carrier": "0.3.0",
+    "mongoose": "^5.10.3",
+    "morgan": "^1.10.0",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "supertest": "^4.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akumbhani66/mongoose-morgan-body.git"
+  },
+  "homepage": "https://github.com/akumbhani66/mongoose-morgan-body/",
+  "scripts": {
+    "test": "mocha --timeout 10000 test/*.test.js test/**/*.test.js"
+  },
+  "types": "types/index.d.ts"
+}
