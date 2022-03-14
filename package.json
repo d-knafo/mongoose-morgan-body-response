@@ -1,7 +1,7 @@
 {
   "name": "mongoose-morgan-body-response",
   "description": "Used to log morgan stream data with request and response body into MongoDb database.",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "author": "david knafo <davidkjimdo@gmail.com>",
   "keywords": [
     "morgan",
